@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Page](README.md)
+* [Pursuing a Computer Science PhD in Europe: A Comprehensive Guide](README.md)

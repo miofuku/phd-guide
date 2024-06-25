@@ -1,365 +1,245 @@
-\documentclass[10pt]{beamer}
+\documentclass[aspectratio=169,10pt]{beamer}
 
 \usetheme{metropolis}
 \usepackage{appendixnumberbeamer}
-
 \usepackage{booktabs}
 \usepackage[scale=2]{ccicons}
-
 \usepackage{pgfplots}
 \usepgfplotslibrary{dateplot}
-
 \usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees,shapes,arrows,pie}
+\usepackage{tcolorbox}
+
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
-\title{Understanding the PhD Landscape in Europe and Germany}
-\subtitle{Talk 1: Preparing for and Starting Your PhD Journey}
+\title{Navigating the PhD Landscape in Europe and Germany}
+\subtitle{Session 1: Embarking on Your Doctoral Journey}
 \date{\today}
 \author{Dr. Bijun Li}
-%\institute{Center for modern beamer themes}
-% \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
+\institute{Expert in International Academic Environments}
 
 \begin{document}
 
 \maketitle
 
-%\section{Introduction}
-
-% new page 
-\begin{frame}[fragile]{Self-Introduction}
-\begin{itemize}
-    \item Dr. Bijun Li
-    \item PhD in Computer Science from [University Name]
-    \item Research focus: [Brief description of research area]
-    \item Current position: [e.g., Postdoctoral Researcher at XYZ University]
-    \item Experience with international academic environments
-    \item Passionate about guiding students in their academic journey
-\end{itemize}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{Purpose of the Series}
-\begin{columns}[T]
-    \begin{column}{0.6\textwidth}
-        \alert{Explore PhD Opportunities in Europe}
-        \begin{itemize}
-            \item Comprehensive overview of European PhD landscape
-            \item In-depth focus on Germany's prestigious programs
-            \item Detailed guidance on application process
-            \item Insights into funding and practical considerations
-        \end{itemize}
-    \end{column}
-    \begin{column}{0.4\textwidth}
-        \alert{Target Audience}
-        \begin{itemize}
-            \item Current Master's students
-            \item Final-year undergraduates
-            \item Early-career professionals considering academia
-        \end{itemize}
-        % Add an icon or image representing diverse students
-        %\includegraphics[width=\textwidth]{diverse_students_icon.png}
-    \end{column}
-\end{columns}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{Overview of Talk 1}
-\begin{columns}[T]
-    \begin{column}{0.5\textwidth}
-        \alert{1. PhD Programs in Europe}
-        \begin{itemize}
-            \item General structure and duration
-            \item Comparative analysis across countries
-        \end{itemize}
-        \alert{2. German Higher Education System}
-        \begin{itemize}
-            \item Types of institutions
-            \item Research and industry collaborations
-        \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-        \alert{3. Finding PhD Opportunities}
-        \begin{itemize}
-            \item Research methods and resources
-            \item Contacting potential supervisors
-            \item Networking strategies
-        \end{itemize}
-        \alert{4. Application Process}
-        \begin{itemize}
-            \item Eligibility criteria
-            \item Required documents
-            \item Application timeline
-        \end{itemize}
-    \end{column}
-\end{columns}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{PhD Programs in Europe: Comparative Analysis}
-\begin{tabular}{|l|c|c|c|c|}
-\hline
-\textbf{Aspect} & \textbf{Germany} & \textbf{France} & \textbf{Netherlands} & \textbf{Scandinavia} \\
-\hline
-Duration & 3-5 years & 3-4 years & 4 years & 3-4 years \\
-\hline
-Structure & Research-focused & Coursework + Research & Structured & Project-based \\
-\hline
-Funding & Often employed & Varied & Employed & Employed \\
-\hline
-Teaching & Optional & Limited & Often required & Often required \\
-\hline
-Industry links & Strong & Moderate & Strong & Strong \\
-\hline
-\end{tabular}
-
-\vspace{0.5cm}
-\alert{Key Differences}
-\begin{itemize}
-    \item Germany: Strong industry collaborations, research-intensive
-    \item France: More structured programs, linked to research institutions
-    \item Netherlands: Clear timelines, teaching responsibilities
-    \item Scandinavia: Focus on societal impact, public engagement
-\end{itemize}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{Overview of the German Higher Education System}
-    \begin{columns}[T]
-        \begin{column}{0.5\textwidth}
-            \textbf{Research Universities (Universitäten)}
-            \begin{itemize}
-                \item Focus: Academic research, theoretical knowledge
-                \item Strengths: Extensive research, doctoral programs
-                \item Examples: 
-                    \begin{itemize}
-                        \item TU Munich
-                        \item Heidelberg University
-                        \item University of Freiburg
-                    \end{itemize}
-            \end{itemize}
-            
-            \vspace{0.5cm}
-            
-            \textbf{Universities of Applied Sciences}
-            \begin{itemize}
-                \item Focus: Practice-oriented, applied research
-                \item Strengths: Industry ties, practical skills
-                \item Examples:
-                    \begin{itemize}
-                        \item Munich University of Applied Sciences
-                        \item Berlin School of Economics and Law
-                    \end{itemize}
-            \end{itemize}
-        \end{column}
+\begin{frame}{Series Overview}
+    \begin{tikzpicture}[mindmap, grow cyclic, every node/.style=concept, concept color=blue!40,
+                        level 1/.append style={level distance=4cm,sibling angle=90},
+                        level 2/.append style={level distance=3cm,sibling angle=45}]
         
-        \begin{column}{0.5\textwidth}
-            \textbf{Research Institutes}
-            \begin{itemize}
-                \item Focus: Advanced research in specific fields
-                \item Operation: Independent or university-affiliated
-                \item Examples:
-                    \begin{itemize}
-                        \item Max Planck Society
-                        \item Fraunhofer Institutes
-                        \item Helmholtz Association
-                    \end{itemize}
-            \end{itemize}
-            
-            \vspace{0.5cm}
-            
-            \textbf{Key Features}
-            \begin{itemize}
-                \item Excellence Initiative
-                \item Bologna Process compliance
-                \item International student support
-                \item English-taught programs
-            \end{itemize}
-        \end{column}
-    \end{columns}
+        \node{PhD in Europe \& Germany}
+        child { node {Talk 1: Landscape \& Opportunities}
+            child { node {Academic systems} }
+            child { node {Finding programs} }
+        }
+        child { node {Talk 2: Funding \& Practicalities}
+            child { node {Scholarships} }
+            child { node {Living costs} }
+        }
+        child { node {Talk 3: Research \& Supervision}
+            child { node {Choosing a topic} }
+            child { node {Working with advisors} }
+        }
+        child { node {Talk 4: Career Development}
+            child { node {Networking} }
+            child { node {Post-PhD options} }
+        };
+    \end{tikzpicture}
 \end{frame}
 
-% new page
-\begin{frame}[fragile]{Research and Industry Collaborations}
-    \begin{columns}[T]
-        \begin{column}{0.5\textwidth}
-            \textbf{Benefits for PhD Students}
-            \begin{itemize}
-                \item Enhanced practical experience
-                \item Exposure to real-world applications
-                \item Improved career prospects
-                \item Professional network building
-            \end{itemize}
-            
-            \vspace{0.5cm}
-            
-            \textbf{Funding Opportunities}
-            \begin{itemize}
-                \item Industry-sponsored research projects
-                \item Scholarships and grants
-                \item Reduced financial burden
-            \end{itemize}
-        \end{column}
-        
-        \begin{column}{0.5\textwidth}
-            \textbf{Access to Resources}
-            \begin{itemize}
-                \item Advanced technologies
-                \item State-of-the-art facilities
-                \item Industry expertise
-            \end{itemize}
-            
-            \vspace{0.5cm}
-            
-            \textbf{Collaboration Examples}
-            \begin{itemize}
-                \item Industry-funded PhD positions
-                \item Joint research projects
-                \item Internships and placements
-                \item Guest lectures from industry experts
-            \end{itemize}
-        \end{column}
-    \end{columns}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{Finding PhD Opportunities}
-    \frametitle{Researching PhD Programs}
-    \begin{columns}[T]
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Online Resources:
-                    \begin{itemize}
-                        \item DAAD database
-                        \item University websites
-                        \item ResearchGate
-                        \item Google Scholar
-                    \end{itemize}
-                \item Specialized PhD portals:
-                    \begin{itemize}
-                        \item FindAPhD.com
-                        \item EuroDoctorates.com
-                        \item PhDs.org
-                    \end{itemize}
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Networking:
-                    \begin{itemize}
-                        \item Graduate fairs (virtual/in-person)
-                        \item Academic conferences
-                        \item LinkedIn connections
-                    \end{itemize}
-                \item Seek guidance:
-                    \begin{itemize}
-                        \item Current professors
-                        \item Academic advisors
-                        \item Alumni networks
-                    \end{itemize}
-                \item Follow institutions on social media
-            \end{itemize}
-        \end{column}
-    \end{columns}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{Contacting Potential Supervisors}
+\begin{frame}{Learning Objectives for Today}
+    By the end of this session, you will be able to:
     \begin{itemize}
-        \item Identifying potential supervisors:
-            \begin{itemize}
-                \item Align research interests
-                \item Review recent publications
-                \item Examine online profiles
-            \end{itemize}
-        \item Crafting your approach:
-            \begin{itemize}
-                \item Personalized, concise email
-                \item Highlight specific interests in their work
-                \item Include CV, transcripts, brief proposal
-            \end{itemize}
-        \item Preparing a compelling research proposal:
-            \begin{itemize}
-                \item Clear research question/hypothesis
-                \item Well-defined objectives and methodology
-                \item Emphasize potential contributions
-                \item Align with supervisor's projects
-            \end{itemize}
+        \item Understand the structure of PhD programs in Europe, with a focus on Germany
+        \item Navigate the diverse European doctoral landscape
+        \item Identify key differences in the German academic ecosystem
+        \item Develop strategies for finding PhD opportunities
+        \item Craft effective communications with potential supervisors
+        \item Begin building your academic network
     \end{itemize}
 \end{frame}
 
-% new page
-\begin{frame}[fragile]{Effective Networking Strategies}
-    \begin{columns}[T]
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Conferences:
-                    \begin{itemize}
-                        \item Present research
-                        \item Attend relevant sessions
-                        \item Engage in discussions
-                    \end{itemize}
-                \item Workshops:
-                    \begin{itemize}
-                        \item Enhance skills
-                        \item Connect with experts
-                        \item Participate actively
-                    \end{itemize}
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Academic events:
-                    \begin{itemize}
-                        \item Guest lectures
-                        \item Research symposiums
-                        \item Departmental seminars
-                    \end{itemize}
-                \item Online networking:
-                    \begin{itemize}
-                        \item Join academic societies
-                        \item Participate in forums
-                        \item Contribute to discussions
-                    \end{itemize}
-            \end{itemize}
-        \end{column}
-    \end{columns}
-    \vspace{0.5cm}
-    \centering\textbf{Remember: Quality connections matter more than quantity}
-\end{frame}
-
-% new page
-\begin{frame}[fragile]{Application Process and Requirements}
+\begin{frame}{About Your Guide}
 \begin{columns}[T]
-    \begin{column}{0.6\textwidth}
-        \alert{Required Documents Checklist}
+    \begin{column}{0.7\textwidth}
         \begin{itemize}
-            \item [ ] Curriculum Vitae (CV)
-            \item [ ] Academic Transcripts
-            \item [ ] Letters of Recommendation (2-3)
-            \item [ ] Research Proposal
-            \item [ ] Statement of Purpose
-            \item [ ] Proof of Language Proficiency
+            \item Dr. Bijun Li, PhD in Computer Science from Technical University of Munich
+            \item Specialization: Machine Learning for Climate Modeling
+            \item Current role: Postdoctoral Researcher at Max Planck Institute for Meteorology
+            \item 5+ years of experience in international academic settings
+            \item Published in top-tier journals: Nature Climate Change, Journal of Climate
+            \item Personal experience: Moved from China to Germany for PhD studies
         \end{itemize}
     \end{column}
-    \begin{column}{0.4\textwidth}
-        \alert{Eligibility Criteria}
-        \begin{itemize}
-            \item Master's degree or equivalent
-            \item Relevant field of study
-            \item Research experience (preferred)
-            \item Language proficiency:
-                \begin{itemize}
-                    \item English: C1 level
-                    \item German: if applicable
-                \end{itemize}
-        \end{itemize}
+    \begin{column}{0.3\textwidth}
+%        \includegraphics[width=\textwidth]{/api/placeholder/200/200}
+%        \caption*{Dr. Bijun Li}
     \end{column}
 \end{columns}
 \end{frame}
 
-% new page
-\begin{frame}[fragile]{Application Process and Requirements (cont.)}
-\alert{Timeline}
+\begin{frame}{Why This Series Matters}
+\begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+        \textbf{Benefits of a PhD in Europe/Germany}
+        \begin{itemize}
+            \item World-class research facilities
+            \item Strong industry collaborations
+            \item Multicultural academic environment
+            \item Generally tuition-free programs
+            \item Opportunities for EU-wide mobility
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+        \textbf{International PhD Students in Germany (2020)}
+        \begin{tikzpicture}
+            \pie{25/Asia, 15/Other EU, 10/North America, 5/Africa, 5/South America, 40/German}
+        \end{tikzpicture}
+        \tiny{Source: DAAD, 2021}
+    \end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{European PhD Landscape}
+\begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+        \textbf{Bologna Process Impact}
+        \begin{itemize}
+            \item Standardized 3-cycle system (Bachelor, Master, Doctorate)
+            \item Enhanced mobility within Europe
+            \item Focus on quality assurance
+            \item Introduction of ECTS credits
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \textbf{Comparison with Other Regions}
+        \begin{tabular}{|l|c|c|c|}
+        \hline
+        Aspect & Europe & US & Asia \\
+        \hline
+        Duration & 3-4 years & 5-7 years & 3-5 years \\
+        Coursework & Limited & Extensive & Varied \\
+        Funding & Often employed & Often TA/RA & Varied \\
+        \hline
+        \end{tabular}
+    \end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{German Academic Ecosystem}
+\begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+        \textbf{Types of Institutions}
+        \begin{itemize}
+            \item Universities (Universitäten)
+            \item Universities of Applied Sciences (Fachhochschulen)
+            \item Research Institutes (e.g., Max Planck, Fraunhofer)
+        \end{itemize}
+        \textbf{Excellence Initiative Impact}
+        \begin{itemize}
+            \item Increased international visibility
+            \item Enhanced research funding
+            \item Creation of "Elite" universities
+        \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+        \textbf{Research Clusters}
+        \begin{tikzpicture}[grow cyclic, ->,>=latex, level 1/.style={sibling angle=72}]
+        \node[](z){Research}
+          child{node[]{Climate}}
+          child{node[]{AI}}
+          child{node[]{Quantum}}
+          child{node[]{Health}}
+          child{node[]{Energy}};
+        \end{tikzpicture}
+    \end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Uncovering PhD Opportunities}
+\textbf{Online Resources Demo}
+\begin{itemize}
+    \item DAAD Database: \url{www.daad.de/deutschland/promotion/phd/en/}
+    \item Research in Germany: \url{www.research-in-germany.org/en/jobs-and-careers/info-for-phd-students.html}
+    \item EuroDoc: \url{www.eurodoc.net/}
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{Evaluating Program Fit}
+\begin{itemize}
+    \item Research alignment
+    \item Supervisor expertise
+    \item Funding opportunities
+    \item Location and facilities
+    \item Career development support
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Approaching Potential Supervisors}
+\textbf{Good Initial Contact Email}
+\begin{tcolorbox}[colback=green!5,colframe=green!40!black]
+Subject: Inquiry about PhD position in Machine Learning for Climate Modeling
+
+Dear Professor [Name],
+
+I am writing to express my interest in pursuing a PhD under your supervision...
+
+[Brief introduction, research interests, relevant experience]
+
+I am particularly interested in your recent work on [specific project/paper]...
+
+[Question about current research or potential projects]
+
+Thank you for your time and consideration.
+
+Sincerely,
+[Your Name]
+\end{tcolorbox}
+
+\textbf{Tips for Follow-up}
+\begin{itemize}
+    \item Be patient (wait at least 2 weeks before following up)
+    \item Keep it brief and polite
+    \item Reiterate your interest
+    \item Offer additional information if needed
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Building Your Academic Network}
+\textbf{Networking Opportunities in Germany}
+\begin{itemize}
+    \item German Physical Society (DPG) Annual Meetings
+    \item Lindau Nobel Laureate Meetings
+    \item CeBIT (for technology and digital business)
+    \item Heidelberg Laureate Forum (for mathematics and computer science)
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{Leveraging Social Media}
+\begin{itemize}
+    \item Twitter: Follow researchers, institutions, and relevant hashtags
+    \item LinkedIn: Join groups related to your field and German academia
+    \item ResearchGate: Share your work and engage in discussions
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Application Process for German Universities}
+\textbf{Key Requirements}
+\begin{itemize}
+    \item Master's degree (or equivalent)
+    \item Strong academic record (typically 2.5 or better in German grading system)
+    \item Proof of English proficiency (often IELTS 6.5+ or equivalent)
+    \item Research proposal
+    \item Letters of recommendation
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{Typical Timeline}
 \begin{tikzpicture}[scale=0.7]
     \draw[->] (0,0) -- (10,0) node[right] {Time};
     \draw (0,-0.1) -- (0,0.1) node[above] {18 months};
@@ -367,58 +247,78 @@ Industry links & Strong & Moderate & Strong & Strong \\
     \draw (10,-0.1) -- (10,0.1) node[above] {Start};
     
     \node[align=center] at (2.5,-1) {Research \\ Programs};
-    \node[align=center] at (5,-2) {Contact \\ Supervisors};
-    \node[align=center] at (7.5,-1) {Prepare \\ Application};
-    \node[align=center] at (9,-2) {Submit \\ Apply};
+    \node[align=center] at (5,-2) {Apply};
+    \node[align=center] at (7.5,-1) {Interviews};
+    \node[align=center] at (9,-2) {Decision};
 \end{tikzpicture}
 \end{frame}
 
-% new page
-\begin{frame}[fragile]{Conclusion and Preview of Talk 2}
+\begin{frame}{Q\&A Session}
+\textbf{Common Questions}
+\begin{itemize}
+    \item Q: Do I need to speak German for a PhD in Germany?
+    \item A: Not necessarily. Many programs, especially in STEM fields, are conducted in English. However, learning German can enhance your overall experience and career prospects.
+    
+    \item Q: How competitive are PhD positions in Germany?
+    \item A: Competitiveness varies by field and institution. Generally, positions at top universities and in popular fields are highly competitive.
+    
+    \item Q: Can I work part-time during my PhD in Germany?
+    \item A: Yes, most PhD students in Germany are employed by their university or research institute. Additional part-time work is possible within certain limits.
+\end{itemize}
+
+\centering{\large{Your questions?}}
+\end{frame}
+
+\begin{frame}{Additional Resources}
 \begin{columns}[T]
     \begin{column}{0.5\textwidth}
-        \alert{Key Takeaways from Talk 1:}
+        \textbf{German-specific Resources}
         \begin{itemize}
-            \item Diverse PhD structures across Europe
-            \item Unique features of German higher education
-            \item Strategies for finding opportunities
-            \item Importance of tailored applications
+            \item Deutsch-Uni Online: \url{www.deutsch-uni.com}
+            \item Make it in Germany: \url{www.make-it-in-germany.com}
+            \item Study in Germany: \url{www.study-in-germany.de}
         \end{itemize}
     \end{column}
     \begin{column}{0.5\textwidth}
-        \alert{Preview of Talk 2:}
+        \textbf{Cultural Adaptation}
         \begin{itemize}
-            \item Funding landscape
-            \item Financial planning
-            \item Practical considerations
-            \item Overcoming challenges
-            \item Professional development
+            \item Goethe-Institut: \url{www.goethe.de}
+            \item Deutsche Welle: \url{www.dw.com}
+            \item InterNations: \url{www.internations.org}
         \end{itemize}
     \end{column}
 \end{columns}
-
-\vspace{0.5cm}
-\alert{Detailed Topics for Next Session:}
-\begin{itemize}
-    \item Comprehensive overview of funding sources
-        \begin{itemize}
-            \item Government grants, university funding, industry partnerships
-        \end{itemize}
-    \item Financial aspects of PhD life
-        \begin{itemize}
-            \item Cost of living, PhD salaries, benefits
-        \end{itemize}
-    \item Navigating practical challenges
-        \begin{itemize}
-            \item Work-life balance, cultural adaptation, administrative processes
-        \end{itemize}
-    \item Building a professional network
-    \item Strategies for career development
-\end{itemize}
-
-\vspace{0.3cm}
-\centering{\textbf{Join us next time for in-depth insights on thriving during your PhD journey!}}
 \end{frame}
 
+\begin{frame}{Next Steps and Preview of Talk 2}
+\textbf{Homework for Next Session}
+\begin{itemize}
+    \item Research funding options relevant to your field
+    \item Draft a preliminary budget for PhD life in Germany
+    \item Identify 2-3 potential supervisors and draft initial contact emails
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{Preview of Talk 2: Funding, Practical Considerations, and Challenges}
+\begin{itemize}
+    \item Comprehensive overview of funding sources
+    \item Detailed breakdown of living costs in Germany
+    \item Strategies for overcoming common PhD challenges
+    \item Tips for work-life balance and cultural integration
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Thank You!}
+\begin{center}
+\large{\textbf{We look forward to seeing you in Session 2!}}
+
+\vspace{1cm}
+
+Contact: \href{mailto:bijun.li@mpimet.mpg.de}{bijun.li@mpimet.mpg.de}
+
+Follow for updates: @DrBijunLi
+\end{center}
+\end{frame}
 
 \end{document}

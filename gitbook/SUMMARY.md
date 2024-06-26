@@ -6,3 +6,4 @@
 * [3. Application Process](3.-application-process.md)
 * [4. Funding and Financial Planning](4.-funding-and-financial-planning.md)
 * [5. Visa and Legal Considerations](5.-visa-and-legal-considerations.md)
+* [6. Starting Your PhD](6.-starting-your-phd.md)

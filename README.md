@@ -1,6 +1,7 @@
 # Guide to Computer Science PhD in Germany
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
+
 This work is licensed under a [Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHAREALIKE 4.0 INTERNATIONAL license](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1).
 
 ## 📚 About This Book

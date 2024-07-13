@@ -2,9 +2,9 @@
 
 * [🎓 如何在欧洲攻读计算机科学博士学位](README.md)
 * [1. 简介](1.-jian-jie.md)
-* [Page 2](page-2.md)
-* [Page 3](page-3.md)
-* [IV. 资金和财务规划](iv.-zi-jin-he-cai-wu-gui-hua.md)
+* [2. 准备工作](2.-zhun-bei-gong-zuo.md)
+* [3. 申请流程](3.-shen-qing-liu-cheng.md)
+* [4. 资金和财务规划](4.-zi-jin-he-cai-wu-gui-hua.md)
 * [Page 5](page-5.md)
 * [Page 6](page-6.md)
 * [Page 7](page-7.md)

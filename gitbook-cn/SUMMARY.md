@@ -6,7 +6,7 @@
 * [3. 申请流程](3.-shen-qing-liu-cheng.md)
 * [4. 资金和财务规划](4.-zi-jin-he-cai-wu-gui-hua.md)
 * [5. 签证和法律考虑事项](5.-qian-zheng-he-falkaolshi-xiang.md)
-* [Page 6](page-6.md)
+* [6. 开始你的博士学习](6.-kai-shi-ni-de-bo-shi-xue-xi.md)
 * [Page 7](page-7.md)
 * [Page 8](page-8.md)
 * [Page 9](page-9.md)

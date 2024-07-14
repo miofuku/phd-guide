@@ -5,7 +5,7 @@
 * [2. 准备工作](2.-zhun-bei-gong-zuo.md)
 * [3. 申请流程](3.-shen-qing-liu-cheng.md)
 * [4. 资金和财务规划](4.-zi-jin-he-cai-wu-gui-hua.md)
-* [Page 5](page-5.md)
+* [5. 签证和法律考虑事项](5.-qian-zheng-he-falkaolshi-xiang.md)
 * [Page 6](page-6.md)
 * [Page 7](page-7.md)
 * [Page 8](page-8.md)

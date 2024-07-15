@@ -12,7 +12,7 @@
 * [9. 挑战及如何克服](9.-tiao-zhan-ji-ru-he-ke-fu.md)
 * [10. 专业发展](10.-zhuan-ye-fa-zhan.md)
 * [11. 完成博士学位](11.-wan-cheng-bo-shi-xue-wei.md)
-* [Page 12](page-12.md)
+* [12. 博士毕业后职业前景](12.-bo-shi-bi-ye-hou-zhi-ye-qian-jing.md)
 * [Page 13](page-13.md)
 * [Page 14](page-14.md)
 * [Page 15](page-15.md)

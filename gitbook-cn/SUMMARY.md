@@ -11,7 +11,7 @@
 * [8. 发表论文和参加会议](8.-fa-biao-lun-wen-he-can-jia-hui-yi.md)
 * [9. 挑战及如何克服](9.-tiao-zhan-ji-ru-he-ke-fu.md)
 * [10. 专业发展](10.-zhuan-ye-fa-zhan.md)
-* [Page 11](page-11.md)
+* [11. 完成博士学位](11.-wan-cheng-bo-shi-xue-wei.md)
 * [Page 12](page-12.md)
 * [Page 13](page-13.md)
 * [Page 14](page-14.md)

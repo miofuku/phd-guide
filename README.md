@@ -6,7 +6,11 @@ This work is licensed under a [Creative Commons ATTRIBUTION-NONCOMMERCIAL-SHAREA
 
 ## 📚 About This Book
 
-This GitBook [Pursuing a Computer Science PhD in Europe: A Comprehensive Guide](https://easymentor.gitbook.io/guide-to-pursuing-a-phd-in-europe) serves as a comprehensive guide for international students pursuing or considering a PhD in Computer Science in Germany. It covers everything from preparation and application processes to the intricacies of PhD life, research, and career prospects in the German academic and industrial landscape.
+This GitBook 
+- English ver.: [Pursuing a Computer Science PhD in Europe: A Comprehensive Guide](https://easymentor.gitbook.io/guide-to-pursuing-a-phd-in-europe)
+- 中文版：[欧洲计算机读博指南](https://easymentor.gitbook.io/ou-zhou-du-bo-zhi-nan)
+
+serves as a comprehensive guide for international students pursuing or considering a PhD in Computer Science in Germany. It covers everything from preparation and application processes to the intricacies of PhD life, research, and career prospects in the German academic and industrial landscape.
 
 ## 🎯 Who Is This For?
 

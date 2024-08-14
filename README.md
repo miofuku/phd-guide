@@ -49,17 +49,6 @@ serves as a comprehensive guide for international students pursuing or consideri
 
 This GitBook is designed to be read sequentially, but each chapter can also stand alone as a reference. Feel free to jump to the sections most relevant to your current needs.
 
-## 🤝 Contributing
-
-We welcome contributions to improve and expand this guide! If you have insights, experiences, or resources to share:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingContribution`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some AmazingContribution'`)
-5. Push to the branch (`git push origin feature/AmazingContribution`)
-6. Open a Pull Request
-
 ## 📣 Feedback
 
 If you find this guide helpful or have suggestions for improvement, please:
